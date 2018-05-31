@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<video id="video1" width="1440"  controls="controls" autoplay="autoplay">
+  <source src="合成%201.mp4" type="video/mp4">
+
+  </source>
+</video>
+<script>
+myVid=document.getElementById("video1");
+myVid.addEventListener('ended',function(){
+window.location.href="statis.html";
+});
+</script>
+</body>
+</html>
